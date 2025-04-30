@@ -18,10 +18,12 @@ Setup Instructions
 1. Clone the Repository
 ------------------------------
 git clone https://github.com/Zack914/herafi-autobot.git
+
 cd herafi-autobot
 
 2. Install Dependencies
 ------------------------------
+
 npm install
 
 3. Add Private Keys
@@ -34,6 +36,7 @@ Example:
 
 4. Run the Bot
 ------------------------------
+
 node index.js
 
 ------------------------------
