@@ -4,7 +4,7 @@ HDEFI to SUSHI Swap Bot (Optimism Sepolia)
 
 This Node.js bot automatically swaps HDEFI tokens for SUSHI tokens on the Optimism Sepolia testnet using multiple wallet private keys.
 
-------------------------------
+-----------------------------
 Requirements
 ------------------------------
 - Node.js (v16 or later)
