@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "ethers": "^5.8.0",
-    "web3author": "1.0.0",
+    "web3automation": "^1.1.1",
     "fs": "^0.0.1-security"
   }
 }
